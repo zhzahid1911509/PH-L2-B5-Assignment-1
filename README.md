@@ -1,4 +1,4 @@
-# Understanding TypeScript Types: any, unknown, never and enums
+# Exploring TypeScript Types: `any`, `unknown`, `never`, and `enums`
 
 TypeScript's type system is one of its most powerful features, providing developers with tools to write safer, more maintainable code. In this post, we'll explore some of the more nuanced types in TypeScript that often cause confusion but are essential for mastering the language.
 
