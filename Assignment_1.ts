@@ -27,3 +27,17 @@ function filterByRating(items: { title: string; rating: number }[]): { title: st
 }
 
 //
+
+function concatenateArrays<T>(...arrays: T[][]): T[]{
+    const concatenatedArray: T[] = [];
+
+    for(let i = 0; i<arrays.length; i++){
+        const insideArray = arrays[i];
+
+        for(let j = 0; j<insideArray.length; j++){
+            concatenatedArray.push(insideArray[j]);
+        }
+    }
+
+    return concatenatedArray;
+}
