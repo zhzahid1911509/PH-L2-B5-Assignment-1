@@ -117,7 +117,7 @@ enum Day {
     Sunday
   }
   
-  function getDayType(day: Day): string{
+function getDayType(day: Day): string{
     switch(day){
         case Day.Saturday:
         case Day.Sunday:
@@ -128,5 +128,18 @@ enum Day {
   }
 
   //
-
   
+async function squareAsync(n: number): Promise<number>{
+    const outputPromise = new Promise<number>((resolve, reject) => {
+        setTimeout(()=>{
+            if(n < 0){
+                reject(new Error("Negative number not allowed"));
+            }
+            else{
+                resolve(n*n);
+            }
+        }, 1000);
+    });
+
+    return outputPromise;
+}
