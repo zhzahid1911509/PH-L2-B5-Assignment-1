@@ -223,7 +223,7 @@ Understanding when to use each type is crucial:
 - Use `any` as a last resort when we really need to opt out of type checking
 - Prefer `unknown` over `any` when dealing with values of uncertain types
 - Use `never` for impossible states and exhaustive type checking
-- Use enums when we have a fixed set of related constants
+- Use `enums` when we have a fixed set of related constants
 
 By mastering these TypeScript types, we can write more robust code that catches errors at compile-time rather than runtime, making our applications more reliable and easier to maintain.
 
