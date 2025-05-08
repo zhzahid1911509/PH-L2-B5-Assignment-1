@@ -229,4 +229,4 @@ By mastering these TypeScript types, we can write more robust code that catches 
 
 ## Conclusion
 
-TypeScript's rich type system provides powerful tools for expressing complex type relationships. The `any`, `unknown`, and `never` types each serve specific purposes in different scenarios, while enums offer a clean way to define sets of related constants.
+TypeScript's rich type system provides powerful tools for expressing complex type relationships. The `any`, `unknown`, and `never` types each serve specific purposes in different scenarios, while `enums` offer a clean way to define sets of related constants.
